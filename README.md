@@ -646,8 +646,8 @@ ax2.imshow(edges, cmap='gray');
 
 If you film something like a documentary or reality TV, you must get permission from every individual shown on film before you can show their face, otherwise you need to blur it out - by blurring the face a lot (so much so that even the global structures are obscured)!  This is also true for projects like [Google's StreetView maps](https://www.google.com/streetview/) - an enormous collection of mapping images taken from a fleet of Google vehicles.  Because it would be impossible for Google to get the permission of every single person accidentally captured in one of these images they blur out everyone's faces, the detected images must automatically blur the identity of detected people.  Here's a few examples of folks caught in the camera of a Google street view vehicle.
 
-<img src="images/streetview_example_1.jpg" width=400 height=300/>
-<img src="images/streetview_example_2.jpg" width=400 height=300/>
+<img src="images/streetview_example_1.jpg"/>
+<img src="images/streetview_example_2.jpg"/>
 
 
 ### Read in an image to perform identity detection
@@ -795,7 +795,7 @@ Facial keypoints (also called facial landmarks) are the small blue-green dots sh
 
 Below we illustrate a filter that, using the results of this section, automatically places sunglasses on people in images (using the facial keypoints to place the glasses correctly on each face).  Here, the facial keypoints have been colored lime green for visualization purposes.
 
-<img src="images/obamas_with_shades.png" width=1000 height=1000/>
+<img src="images/obamas_with_shades.png"/>
 
 ### Make a facial keypoint detector
 
@@ -1794,7 +1794,7 @@ Use the OpenCV face detection functionality you built in previous Sections to ex
 
 When complete you should be able to produce example images like the one below
 
-<img src="images/obamas_with_keypoints.png" width=1000 height=1000/>
+<img src="images/obamas_with_keypoints.png"/>
 
 
 ```python
@@ -1934,7 +1934,7 @@ laptop_camera_go()
 
 Using your freshly minted facial keypoint detector pipeline you can now do things like add fun filters to a person's face automatically.  In this optional exercise you can play around with adding sunglasses automatically to each individual's face in an image as shown in a demonstration image below.
 
-<img src="images/obamas_with_shades.png" width=1000 height=1000/>
+<img src="images/obamas_with_shades.png"/>
 
 To produce this effect an image of a pair of sunglasses shown in the Python cell below.
 
@@ -2008,7 +2008,7 @@ This means that when we place this sunglasses image on top of another image, we 
 
 One last thing: it's helpful to understand which keypoint belongs to the eyes, mouth, etc. So, in the image below, we also display the index of each facial keypoint directly on the image so that you can tell which keypoints are for the eyes, eyebrows, etc.
 
-<img src="images/obamas_points_numbered.png" width=500 height=500/>
+<img src="images/obamas_points_numbered.png"/>
 
 With this information, you're well on your way to completing this filtering task!  See if you can place the sunglasses automatically on the individuals in the image loaded in / shown in the next Python cell.
 
