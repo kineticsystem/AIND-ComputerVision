@@ -117,9 +117,7 @@ ax1.set_title('Original Image')
 ax1.imshow(image);
 ```
 
-
-![png](output_6_0.png)
-
+<img src="images/output_6_0.png"/>
 
 There are a lot of people - and faces - in this picture.  13 faces to be exact!  In the next code cell, we demonstrate how to use a Haar Cascade classifier to detect all the faces in this test image.
 
