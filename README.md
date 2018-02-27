@@ -2096,7 +2096,7 @@ ax1.imshow(image);
 
 Now you can add the sunglasses filter to your laptop camera - as illustrated in the gif below.
 
-<img src="images/mr_sunglasses.gif" width=250 height=250/>
+<img src="images/mr_sunglasses.gif"/>
 
 The next Python cell contains the basic laptop video camera function used in the previous optional video exercises.  Combine it with the functionality you developed for adding sunglasses to someone's face in the previous optional exercise and you should be good to go!
 
