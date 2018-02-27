@@ -301,7 +301,7 @@ ax1.imshow(image_copy);
 
 It's time to kick it up a notch, and add face and eye detection to your laptop's camera!  Afterwards, you'll be able to show off your creation like in the gif shown below - made with a completed version of the code!  
 
-<img src="images/laptop_face_detector_example.gif" width=400 height=300/>
+<img src="images/laptop_face_detector_example.gif"/>
 
 Notice that not all of the detections here are perfect - and your result need not be perfect either.   You should spend a small amount of time tuning the parameters of your detectors to get reasonable results, but don't hold out for perfection.  If we wanted perfection we'd need to spend a ton of time tuning the parameters of each detector, cleaning up the input image frames, etc. You can think of this as more of a rapid prototype. 
 
@@ -538,7 +538,7 @@ Edge detection is a dimension reduction technique - by keeping only the edges of
 
 Below is an animated gif showing the result of an edge-detected cat [taken from Wikipedia](https://en.wikipedia.org/wiki/Gaussian_blur#Common_uses), where the image is gradually blurred more and more prior to edge detection.  When the animation begins you can't quite make out what it's a picture of, but as the animation evolves and local structures are removed via blurring the cat becomes visible in the edge-detected image.
 
-<img src="images/Edge_Image.gif" width=400 height=300/>
+<img src="images/Edge_Image.gif"/>
 
 Edge detection is a **convolution** performed on the image itself, and you can read about Canny edge detection on [this OpenCV documentation page](http://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/canny_detector/canny_detector.html).
 
@@ -721,7 +721,7 @@ ax1.imshow(image_copy);
 
 In this optional task you can add identity protection to your laptop camera, using the previously completed code where you added face detection to your laptop camera - and the task above.  You should be able to get reasonable results with little parameter tuning - like the one shown in the gif below.
 
-<img src="images/laptop_blurer_example.gif" width=400 height=300/>
+<img src="images/laptop_blurer_example.gif"/>
 
 As with the previous video task, to make this perfect would require significant effort - so don't strive for perfection here, strive for reasonable quality.  
 
@@ -1877,7 +1877,7 @@ ax1.imshow(image_copy);
 
 Now you can add facial keypoint detection to your laptop camera - as illustrated in the gif below.
 
-<img src="images/facial_keypoint_test.gif" width=400 height=300/>
+<img src="images/facial_keypoint_test.gif"/>
 
 The next Python cell contains the basic laptop video camera function used in the previous optional video exercises.  Combine it with the functionality you developed for keypoint detection and marking in the previous exercise and you should be good to go!
 
