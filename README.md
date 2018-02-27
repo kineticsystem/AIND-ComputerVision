@@ -789,7 +789,7 @@ OpenCV is often used in practice with other machine learning and deep learning l
 
 You will start by creating and then training a convolutional network that can detect facial keypoints in a small dataset of cropped images of human faces.  We then guide you towards OpenCV to expanding your detection algorithm to more general images.  What are facial keypoints?  Let's take a look at some examples.
 
-<img src="images/keypoints_test_results.png" width=400 height=300/>
+<img src="images/keypoints_test_results.png"/>
 
 Facial keypoints (also called facial landmarks) are the small blue-green dots shown on each of the faces in the image above - there are 15 keypoints marked in each image.  They mark important areas of the face - the eyes, corners of the mouth, the nose, etc.  Facial keypoints can be used in a variety of machine learning applications from face and emotion recognition to commercial applications like the image filters popularized by Snapchat.
 
@@ -1602,7 +1602,7 @@ The validation loss is not bad but after 120 epochs we notice some overfitting a
     <tr>
         <td style="text-align:left;">
             <b>sgd</b> 
-            <img src="test_models/model_loss_1_sgd.png" width=300 height=300/>
+            <img src="test_models/model_loss_1_sgd.png"/>
         </td>
     </tr>
 </table>
@@ -1627,11 +1627,11 @@ The result is not as good as before but we can see that using SGD at 150 epochs 
     <tr>
         <td style="text-align:left;">
             <b>SGD</b>
-            <img src="test_models/model_loss_2_sgd.png" width=300 height=300/>
+            <img src="test_models/model_loss_2_sgd.png"/>
         </td>
         <td style="text-align:left;">
             <b>RMSprop</b> 
-            <img src="test_models/model_loss_2_rmsprop.png" width=300 height=300/>
+            <img src="test_models/model_loss_2_rmsprop.png"/>
         </td>
     </tr>
     
@@ -1657,7 +1657,7 @@ dense_15 (Dense)             (None, 30)
     <tr>
         <td style="text-align:left;">
             <b>RMSprop</b>
-            <img src="test_models/model_loss_3_rmsprop-dropout04.png" width=300 height=300/>
+            <img src="test_models/model_loss_3_rmsprop-dropout04.png"/>
         </td>
     </tr>
 </table>
@@ -1678,31 +1678,31 @@ I have explored different optimizers against the latest network to look for an i
     <tr>
         <td style="text-align:left;">
             <b>RMSprop</b>
-            <img src="test_models/model_loss_3_rmsprop-dropout04.png" width=300 height=300/>
+            <img src="test_models/model_loss_3_rmsprop-dropout04.png"/>
         </td>
         <td style="text-align:left;">
             <b>Adam</b>
-            <img src="test_models/model_loss_3_adam-dropout04.png" width=300 height=300/>
+            <img src="test_models/model_loss_3_adam-dropout04.png"/>
         </td>
     </tr>
     <tr>
         <td style="text-align:left;">
             <b>Adagrad</b>
-            <img src="test_models/model_loss_3_adagrad-dropout04.png" width=300 height=300/>
+            <img src="test_models/model_loss_3_adagrad-dropout04.png"/>
         </td>
         <td style="text-align:left;">
             <b>Adamax</b>
-            <img src="test_models/model_loss_3_adamax-dropout04.png" width=300 height=300/>
+            <img src="test_models/model_loss_3_adamax-dropout04.png"/>
         </td>
     </tr>
     <tr>
         <td style="text-align:left;">
             <b>Adadelta</b>
-            <img src="test_models/model_loss_3_adadelta-dropout04.png" width=300 height=300/>
+            <img src="test_models/model_loss_3_adadelta-dropout04.png"/>
         </td>
         <td style="text-align:left;">
             <b>Nadam</b>
-            <img src="test_models/model_loss_3_nadam-dropout04.png" width=300 height=300/>
+            <img src="test_models/model_loss_3_nadam-dropout04.png"/>
         </td>
     </tr>
 </table>
